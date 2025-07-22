@@ -1,0 +1,178 @@
+.body {
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.foto-de-capa {
+    object-fit: cover;
+    height: 230px; 
+    width: 780px;
+    top: 76px;
+    left: 154px;
+    opacity: 1;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.foto-de-perfil {
+    height: 160px;
+    width: 160px;
+    margin-top: -120px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border-width: 4px;
+    border-style: solid ;
+    border-color: #1B2226;
+}
+
+.informacoes-perfil {
+    color: antiquewhite;
+    margin: 30px;
+    width: 780px;
+    height: 468px;
+    opacity: 1;
+    background-color: #1B2226;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    margin-left: 154px;
+    margin-top: 76px;
+}
+
+.informacoes-pessoais {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: 238px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    opacity: 1;
+    background-color: #1B2226;
+    text-align: justify;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.informacoes-pessoais h2,
+.informacoes-pessoais h3 {
+    margin: 4px 0;
+    margin-left: 20px;
+}
+
+.informacoes-pessoais p {
+    margin: 4px 0;
+    margin-left: 20px;
+}
+
+.local-e-contato {
+    display: flex;
+    flex-direction: row;
+    color: #70B5F9;
+}
+
+.bio {
+    color: #FFFFFF99;
+}
+
+.cidade {
+    color: #FFFFFF99;
+}
+
+.local-e-contato,
+.conexoes,
+.perfil-acoes {
+    color: #70B5F9;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.conexoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.mensagem {
+    background-color: #70B5F9;
+    font-size: 14px;
+    margin-left: 20px;
+    width: 128px;
+    height: 32px;
+    top: 488px;
+    left: 178px;
+    opacity: 1;
+    border-radius: 16px;
+    border-width: 1px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000BF
+}
+
+.mais {
+    background-color: #1B2226;
+    font-size: 14px;
+    margin-left: 20px;
+    width: 128px;
+    height: 32px;
+    top: 488px;
+    left: 178px;
+    opacity: 1;
+    border-radius: 16px;
+    border-width: 1px;
+    color: #70B5F9;
+    border-color: #70B5F9;
+}
+
+.detalhes-carreira {
+    position: absolute;
+    margin-top: 287px;
+    margin-left: 700px;
+}
+
+.detalhes-carreira h3 {
+    font-weight: normal;
+    color: white;
+    font-family: Roboto;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 4px;
+}
+
+.img-empresa {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-top: 300px;
+    margin-left: 657px;
+    opacity: 1;
+}
+
+.img-instituicao {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-top: 345px;
+    margin-left: 657px;
+    opacity: 1;
+}
+
+.ellipse {
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    opacity: 1;
+    background-color: #ffffff99;
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-right: -10px;
+}

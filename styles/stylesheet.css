@@ -1,17 +1,12 @@
-.body {
+body {
     background-color: black;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 }
 
 .foto-de-capa {
     object-fit: cover;
     height: 230px; 
     width: 780px;
-    top: 76px;
-    left: 154px;
     opacity: 1;
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
@@ -62,12 +57,13 @@
 .informacoes-pessoais h2,
 .informacoes-pessoais h3 {
     margin: 4px 0;
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
 }
 
 .informacoes-pessoais p {
     margin: 4px 0;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .local-e-contato {
@@ -92,6 +88,27 @@
     font-size: 14px;
 }
 
+.link-conexoes {
+    color: #70B5F9;
+    margin-top: 4px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.link-conexoes2 {
+    color: #70B5F9;
+    margin-top: 2px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.link-seguidores {
+    color: #70B5F9;
+    margin-top: 2px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
 .conexoes {
     display: flex;
     flex-direction: row;
@@ -100,11 +117,10 @@
 .mensagem {
     background-color: #70B5F9;
     font-size: 14px;
-    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
     width: 128px;
     height: 32px;
-    top: 488px;
-    left: 178px;
     opacity: 1;
     border-radius: 16px;
     border-width: 1px;
@@ -119,11 +135,10 @@
 .mais {
     background-color: #1B2226;
     font-size: 14px;
-    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
     width: 128px;
     height: 32px;
-    top: 488px;
-    left: 178px;
     opacity: 1;
     border-radius: 16px;
     border-width: 1px;
@@ -133,7 +148,7 @@
 
 .detalhes-carreira {
     position: absolute;
-    margin-top: 287px;
+    margin-top: 350px;
     margin-left: 700px;
 }
 
@@ -152,7 +167,7 @@
     position: absolute;
     width: 32px;
     height: 32px;
-    margin-top: 300px;
+    margin-top: 360px;
     margin-left: 657px;
     opacity: 1;
 }
@@ -161,7 +176,7 @@
     position: absolute;
     width: 32px;
     height: 32px;
-    margin-top: 345px;
+    margin-top: 410px;
     margin-left: 657px;
     opacity: 1;
 }
@@ -175,4 +190,187 @@
     margin-left: 10px;
     margin-top: 14px;
     margin-right: -10px;
+}
+
+.header {
+    width: 1440px;
+    height: 52px;
+    display: flex;
+    align-items: center; 
+    border-width: 1px;
+    opacity: 1;
+    background-color: #1B2226;
+}
+
+.logo-linkedin {
+    width: 34px;
+    height: 34px;
+    margin-top: 2px;
+    margin-left: 153px;
+    opacity: 1;
+}
+
+.input-pesquisa {
+    background-image: url('image/logo-pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 24px 24px; 
+    width: 280px;
+    height: 34px;
+    margin-left: 10px;
+    background-color: #38434F;
+    opacity: 1;
+    border-style:hidden;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    padding-left: 35px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height:50px;
+    color: #FFFFFFE5;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top:8px;
+
+}
+
+.logo-inicio {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -8px;
+}
+
+.minha-rede {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height:50px;
+    color: #FFFFFFE5;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.logo-minha-rede {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height:50px;
+    color: #FFFFFFE5;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:8px;
+}
+
+.logo-vagas {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -8px;
+}
+
+.mensagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height:50px;
+    color: #FFFFFFE5;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.logo-mensagens {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -8px;
+    margin-top: 5px;
+}
+
+.notificacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height:50px;
+    color: #FFFFFFE5;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:8px;
+}
+
+.logo-notificacoes {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -8px;
+}
+
+.solucoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height:50px;
+    color: #FFFFFFE5;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:8px;
+}
+
+.logo-solucoes {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -8px;
+}
+
+.separacao {
+    position: absolute;
+    width: 1px;
+    height: 52.00000000000004px;
+    opacity: 1;
+    margin-left: 1030px;
+    border-width: 1px;
+    background-color: #FFFFFF99;
 }

@@ -22,3 +22,26 @@ O desafio foi proposto pela Alura e guiado pela desenvolvedora **Natália F. Dev
 - Estruturação semântica com HTML5
 - Responsividade básica e organização de layout com Flexbox
 - Inspeção e leitura de layout no Figma
+
+
+# Desafio 2 - #7DaysOfCode | Navbar do LinkedIn
+
+Neste segundo dia, o objetivo foi implementar a **navbar (barra de navegação)** do LinkedIn, de acordo com o layout fornecido no Figma. O componente foi dividido em dois blocos:
+
+- **Lado esquerdo:** 
+  - Logo do LinkedIn
+  - Barra de pesquisa com ícone de lupa
+
+- **Lado direito:** 
+  - Links com ícones para: Início, Minha rede, Vagas, Mensagens, Notificações e Soluções
+
+> Os links não precisam redirecionar, o foco do desafio está na construção do layout e organização do HTML + CSS.
+
+## 💡 Dicas aplicadas
+
+- Utilização do site [Google Fonts Icons](https://fonts.google.com/icons) para os ícones: `search`, `home`, `group`, `business_center`, `sms`, `notifications` e `apps`
+- Estrutura semântica com HTML5
+- Estilização com CSS3
+- Flexbox para o alinhamento dos elementos
+- Media queries simples para esconder a barra de pesquisa em telas menores:
+

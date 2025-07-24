@@ -13,6 +13,7 @@ body {
 }
 
 .foto-de-perfil {
+    object-fit: cover;
     height: 160px;
     width: 160px;
     margin-top: -120px;
@@ -196,6 +197,7 @@ body {
     width: 1440px;
     height: 52px;
     display: flex;
+    flex-direction: row;
     align-items: center; 
     border-width: 1px;
     opacity: 1;
@@ -249,7 +251,6 @@ body {
     text-align: center;
     margin-left: 100px;
     margin-top:8px;
-
 }
 
 .logo-inicio {
@@ -373,4 +374,122 @@ body {
     margin-left: 1030px;
     border-width: 1px;
     background-color: #FFFFFF99;
+}
+
+.destaques {
+    display: flex;
+    flex-direction: row;
+    background-color: #1B2226;
+    width: 780px;
+    height: 312px;
+    margin-top: 65px;
+    margin-left: 153px;
+    margin-bottom: 30px;
+    opacity: 1;
+    border-radius: 16px;
+}
+
+.h2-dest {
+    position: absolute;
+    width: 96px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 177px;
+    opacity: 1;
+    color: #FFFFFFE5;
+    font-family: Roboto;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.pub {
+    width: 238px;
+    height: 236px;
+    margin-top: 50px;
+    margin-left: 15px;
+    border-width: 1px;
+    opacity: 1;
+    border-style: solid;
+    border-color: #FFFFFF99;
+    border-radius: 10px;
+}
+
+.leg {
+    width: 206px;
+    height: 20px;
+    opacity: 1;
+    margin-top: -10px;
+    margin-left: 12px;
+    color: #FFFFFFE5;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.pub-name {
+    width: 60px;
+    height: 20px;
+    opacity: 1;
+    margin-left: 12px;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF99;
+}
+
+.img-pub {
+    width: 238px;
+    height: 152px;
+    opacity: 1;
+    object-fit: cover;
+    margin-top: -10px;
+}
+.reacao {
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes-reacao {
+    width: 32px;
+    height: 16px;
+    opacity: 1;
+}
+
+.curtidas {
+    width: 21px;
+    height: 20px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF99;
+    margin-top: -1px;
+    margin-left: 2px;
+}
+
+.coment {
+    width: 77px;
+    height: 20px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF99;
+    margin-top: -1px;
+    margin-left: 100px;
 }

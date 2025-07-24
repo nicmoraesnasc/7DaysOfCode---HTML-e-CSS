@@ -2,13 +2,13 @@
 
 Este repositório contém o primeiro desafio da minha jornada no **#7DaysOfCode**! 🚀
 
-## 🧩 Descrição
+## Descrição
 
 Neste primeiro dia, o objetivo foi desenvolver **a seção principal de um perfil do LinkedIn**, focando apenas no layout (HTML e CSS) — nada de funcionalidades, apenas estrutura e estilo.
 
 O desafio foi proposto pela Alura e guiado pela desenvolvedora **Natália F. Dev**, como uma forma prática de reforçar conhecimentos em **HTML e CSS**, replicando uma interface real com base em um arquivo Figma.
 
-### 🖼️ O que foi desenvolvido:
+### O que foi desenvolvido:
 
 - Capa do perfil
 - Foto de perfil (com borda e posicionamento)
@@ -16,7 +16,7 @@ O desafio foi proposto pela Alura e guiado pela desenvolvedora **Natália F. Dev
 - Informações de contato e carreira
 - Botões de ação
 
-## 💡 Aprendizados
+## Aprendizados
 
 - Uso de variáveis CSS para paleta de cores
 - Estruturação semântica com HTML5
@@ -37,7 +37,7 @@ Neste segundo dia, o objetivo foi implementar a **navbar (barra de navegação)*
 
 > Os links não precisam redirecionar, o foco do desafio está na construção do layout e organização do HTML + CSS.
 
-## 💡 Dicas aplicadas
+## Dicas aplicadas
 
 - Utilização do site [Google Fonts Icons](https://fonts.google.com/icons) para os ícones: `search`, `home`, `group`, `business_center`, `sms`, `notifications` e `apps`
 - Estrutura semântica com HTML5
@@ -45,7 +45,7 @@ Neste segundo dia, o objetivo foi implementar a **navbar (barra de navegação)*
 - Flexbox para o alinhamento dos elementos
 
 
-# 🚀 Desafio 3 – #7DaysOfCode | Seção de Publicações em Destaque
+# Desafio 3 – #7DaysOfCode | Seção de Publicações em Destaque
 
 No terceiro dia do desafio **#7DaysOfCode** da Alura, seguimos com a construção de uma página de perfil estilo LinkedIn!
 
@@ -53,7 +53,7 @@ Após concluir a navbar e a seção de informações principais, a tarefa de hoj
 
 ---
 
-## ✅ O que foi feito:
+## O que foi feito:
 
 - Criação de três **cards de publicações** contendo:
   - Imagem da publicação
@@ -67,7 +67,7 @@ Após concluir a navbar e a seção de informações principais, a tarefa de hoj
 
 ---
 
-## 🧠 Conceitos praticados:
+## Conceitos praticados:
 
 - Estrutura semântica com HTML
 - Estilização com CSS puro
@@ -77,7 +77,7 @@ Após concluir a navbar e a seção de informações principais, a tarefa de hoj
 
 ---
 
-## 🔗 Recursos utilizados:
+## Recursos utilizados:
 
 - [Figma com layout de referência](https://www.figma.com/)
 - [Unsplash](https://unsplash.com/) para seleção das imagens

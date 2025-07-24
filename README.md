@@ -1,6 +1,6 @@
 # Desafio 1 - #7DaysOfCode | Replica de Perfil do LinkedIn
 
-Este repositório contém o primeiro desafio da minha jornada no **#7DaysOfCode**! 🚀
+Este repositório contém o primeiro desafio da minha jornada no **#7DaysOfCode**!
 
 ## Descrição
 

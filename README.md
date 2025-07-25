@@ -86,4 +86,26 @@ Após concluir a navbar e a seção de informações principais, a tarefa de hoj
 
 ---
 
+# Desafio 4 – #7DaysOfCode | Seção de Atividades e Sobre
 
+## O que foi feito
+
+- ✅ Seção “Atividades recentes”
+  - Imagem em escala menor alinhada à esquerda
+  - Texto descritivo ocupando mais espaço
+  - Link "Ver todas as atividades"
+  - Divisórias entre publicações com `border-bottom`
+
+- ✅ Seção “Sobre”
+  - Título simples
+  - Parágrafo com texto justificado
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+
+## Dicas aplicadas
+
+- Uso de `border-bottom: 1px solid #ffffff99;` para separar itens
+- Uso de `text-align: justify;` para alinhar texto da seção "Sobre"

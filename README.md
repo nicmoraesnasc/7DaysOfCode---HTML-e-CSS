@@ -1,111 +1,149 @@
-Este repositório contém os desafios da minha jornada no **#7DaysOfCode**!
+# 🚀 #7DaysOfCode – Replica da Página de Perfil do LinkedIn
 
-# Desafio 1 - #7DaysOfCode | Replica de Perfil do LinkedIn
+Este repositório contém os desafios da minha jornada no **#7DaysOfCode**, proposto pela Alura e guiado pela desenvolvedora **Natália F. Dev**. A proposta foi desenvolver, em 7 dias, uma réplica da página de perfil do LinkedIn (modo escuro) utilizando **HTML e CSS**, com base em um layout disponibilizado no Figma.
 
-## Descrição
+---
 
-Neste primeiro dia, o objetivo foi desenvolver **a seção principal de um perfil do LinkedIn**, focando apenas no layout (HTML e CSS) — nada de funcionalidades, apenas estrutura e estilo.
+## ✅ Desafio 1 – Seção Principal do Perfil
 
-O desafio foi proposto pela Alura e guiado pela desenvolvedora **Natália F. Dev**, como uma forma prática de reforçar conhecimentos em **HTML e CSS**, replicando uma interface real com base em um arquivo Figma.
+### Descrição
+O objetivo foi desenvolver **a seção principal de um perfil do LinkedIn**, focando apenas no layout — nada de funcionalidades, apenas estrutura e estilo.
 
 ### O que foi desenvolvido:
-
 - Capa do perfil
 - Foto de perfil (com borda e posicionamento)
 - Nome, título e informações profissionais
 - Informações de contato e carreira
 - Botões de ação
 
-## Aprendizados
-
+### Aprendizados
 - Uso de variáveis CSS para paleta de cores
 - Estruturação semântica com HTML5
-- Responsividade básica e organização de layout com Flexbox
-- Inspeção e leitura de layout no Figma
+- Responsividade básica com Flexbox
+- Leitura de layout no Figma
 
+---
 
-# Desafio 2 - #7DaysOfCode | Navbar do LinkedIn
+## ✅ Desafio 2 – Navbar (Barra de Navegação)
 
-Neste segundo dia, o objetivo foi implementar a **navbar (barra de navegação)** do LinkedIn, de acordo com o layout fornecido no Figma. O componente foi dividido em dois blocos:
-
+### Estrutura:
 - **Lado esquerdo:** 
   - Logo do LinkedIn
   - Barra de pesquisa com ícone de lupa
 
 - **Lado direito:** 
-  - Links com ícones para: Início, Minha rede, Vagas, Mensagens, Notificações e Soluções
+  - Ícones de Início, Minha rede, Vagas, Mensagens, Notificações e Soluções
 
-> Os links não precisam redirecionar, o foco do desafio está na construção do layout e organização do HTML + CSS.
-
-## Dicas aplicadas
-
-- Utilização do site [Google Fonts Icons](https://fonts.google.com/icons) para os ícones: `search`, `home`, `group`, `business_center`, `sms`, `notifications` e `apps`
-- Estrutura semântica com HTML5
-- Estilização com CSS3
+### Dicas aplicadas:
+- Uso do [Google Fonts Icons](https://fonts.google.com/icons)
 - Flexbox para o alinhamento dos elementos
-
-
-# Desafio 3 – #7DaysOfCode | Seção de Publicações em Destaque
-
-No terceiro dia do desafio **#7DaysOfCode** da Alura, seguimos com a construção de uma página de perfil estilo LinkedIn!
-
-Após concluir a navbar e a seção de informações principais, a tarefa de hoje foi implementar a seção de **Publicações em Destaque** com foco em estrutura, organização visual e uso de Flexbox.
+- Organização semântica do HTML
 
 ---
 
-## O que foi feito:
+## ✅ Desafio 3 – Publicações em Destaque
 
-- Criação de três **cards de publicações** contendo:
-  - Imagem da publicação
+### O que foi feito:
+- 3 cards com:
+  - Imagem
   - Legenda
-  - Número de reações
-  - Número de comentários
+  - Reações e comentários
 
-- Utilização de:
-  - **Flexbox** para alinhamento dos elementos
-  - Propriedade CSS `object-fit: cover` para manter a proporção correta das imagens
-
----
-
-## Conceitos praticados:
-
-- Estrutura semântica com HTML
-- Estilização com CSS puro
-- Uso prático do Flexbox
-- Controle de proporção de imagem com `object-fit`
-- Design inspirado no layout fornecido pelo Figma
+### Conceitos aplicados:
+- Flexbox para estrutura e alinhamento
+- `object-fit: cover` para manter a proporção das imagens
+- Estilo visual inspirado no layout Figma
 
 ---
 
-## Recursos utilizados:
+## ✅ Desafio 4 – Seção de Atividades e Sobre
 
-- [Figma com layout de referência](https://www.figma.com/)
-- [Unsplash](https://unsplash.com/) para seleção das imagens
-- [Guia completo de Flexbox (CSS-Tricks)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Vídeo sobre Flexbox - Rafa Ballerini](https://www.youtube.com/watch?v=KbjLtEgmzO8)
+### O que foi feito:
+- Seção **Atividades recentes** com:
+  - Imagem menor
+  - Texto descritivo
+  - Link “Ver todas as atividades”
+  - `border-bottom` para separar os itens
+
+- Seção **Sobre** com:
+  - Título e parágrafo de texto justificado
+
+### Dicas aplicadas:
+- `text-align: justify;` para alinhar o texto
+- `border-bottom: 1px solid #ffffff99;` para as divisórias
 
 ---
 
-# Desafio 4 – #7DaysOfCode | Seção de Atividades e Sobre
+## ✅ Desafio 5 – Seção de Experiências Profissionais
 
-## O que foi feito
+### O que foi feito:
+- Lista com experiências:
+  - Nome da empresa
+  - Período
+  - Cargo
+  - Tipo de vínculo e localização
 
-- ✅ Seção “Atividades recentes”
-  - Imagem em escala menor alinhada à esquerda
-  - Texto descritivo ocupando mais espaço
-  - Link "Ver todas as atividades"
-  - Divisórias entre publicações com `border-bottom`
+### Aprendizados:
+- Estruturação de listas com HTML
+- Detalhamento com spans e classes específicas
+- Estilização de diferentes níveis de hierarquia dentro da experiência
 
-- ✅ Seção “Sobre”
-  - Título simples
-  - Parágrafo com texto justificado
+---
 
-## Tecnologias utilizadas
+## ✅ Desafio 6 – Formação Acadêmica e Idiomas
+
+### O que foi feito:
+- Criação da seção **Formação acadêmica**
+- Criação da seção **Idiomas**
+
+### Destaques:
+- Reaproveitamento de classes e estilos anteriores
+- Estrutura clara e organizada para listas educacionais e de idiomas
+
+---
+
+## ✅ Desafio 7 – Sugestões de Perfis
+
+### O que foi feito:
+- Seção **“As pessoas também viram”**
+- Seção **“Pessoas que talvez você conheça”**
+- Cards com imagem, nome, cargo e botão de ação:
+  - “Enviar mensagem”
+  - “Conectar”
+
+### Finalização:
+- Com isso, a réplica da página está completa!
+- Projeto pronto para ser publicado com GitHub Pages
+
+---
+
+## 🛠️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
+- Flexbox
+- Google Fonts e Material Icons
 
-## Dicas aplicadas
+---
 
-- Uso de `border-bottom: 1px solid #ffffff99;` para separar itens
-- Uso de `text-align: justify;` para alinhar texto da seção "Sobre"
+## 📎 Recursos úteis
+
+- [Figma com layout de referência](https://www.figma.com/)
+- [Unsplash](https://unsplash.com/) – imagens para os cards
+- [Guia de Flexbox (CSS-Tricks)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Vídeo sobre Flexbox – Rafa Ballerini](https://www.youtube.com/watch?v=KbjLtEgmzO8)
+
+---
+
+## 🌐 Resultado
+
+Este projeto reforçou meu conhecimento em desenvolvimento front-end, especialmente em:
+
+- Transformar layouts em código
+- Trabalhar com estrutura semântica
+- Organizar CSS com consistência
+- Aplicar boas práticas de estilização e responsividade
+
+## 🏁 Conclusão
+
+Finalizei os 7 dias de desafio com muito aprendizado e satisfação! Recomendo esse desafio para quem quer praticar de forma objetiva e aplicada.
